@@ -1,9 +1,40 @@
 * {
     padding: 0;
     margin: 0;
+    opacity: 100%;
+}
+a { 
+    text-decoration: none;
 }
 body {
-    background-color: #000000;
+    height: 100vw;
+    background-color: #f2d6a2; /** here **/
     font-family: Arial, sans-serif;
     color: #ffffff;
+    text-align: center;
+}
+.main-navbar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: fit-content;
+    height: 50%;
+    background-color: #1a1a1a;
+    opacity: 80%;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 1rem;
+}
+.main-navbar ul {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.main-navbar ul li {
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
 }
